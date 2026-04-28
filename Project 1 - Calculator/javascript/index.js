@@ -1,0 +1,17 @@
+let display = document.getElementById('display');
+
+function appendToDisplay(input){
+    display.value += input;
+}
+
+function clearDisplay(){
+    display.value = '';
+}
+function displayy(){
+    try{
+        display.value = eval(display.value);
+    }
+    catch(Error){
+        display.value = 'Error'
+    }
+}

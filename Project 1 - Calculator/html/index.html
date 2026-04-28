@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUsor0wZ61KQHdRw4f6E4PgAIiMElp_DJTSA&s">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="cont" style="width: 335px;
+        height: 130px;background-color: rgb(255, 255, 255); border-radius: 4px;">
+        <input id="display" readonly>
+        </div>
+        <div class="buttons">
+            <button onclick="appendToDisplay('+')">+</button>
+            <button onclick="appendToDisplay('7')">7</button>
+            <button onclick="appendToDisplay('8')">8</button>  
+            <button onclick="appendToDisplay('9')">9</button>
+            <button onclick="appendToDisplay('-')">-</button>
+            <button onclick="appendToDisplay('4')">4</button>
+            <button onclick="appendToDisplay('5')">5</button>
+            <button onclick="appendToDisplay('6')">6</button>
+            <button onclick="appendToDisplay('*')">×</button>
+            <button onclick="appendToDisplay('1')">1</button>
+            <button onclick="appendToDisplay('2')">2</button>
+            <button onclick="appendToDisplay('3')">3</button>
+            <button onclick="appendToDisplay('/')">÷</button>
+            <button onclick="appendToDisplay('0')">0</button>
+            <button onclick="appendToDisplay('.')">,</button>
+            <button onclick="displayy()">=</button>
+            <button onclick="clearDisplay()">C</button>
+        </div>
+    </div>
+
+    <script src="../javascript/index.js"></script>
+</body>
+</html>
