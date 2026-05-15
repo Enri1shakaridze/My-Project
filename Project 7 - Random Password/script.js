@@ -31,11 +31,10 @@ form.addEventListener('submit', function(e){
     passgene.value = res;
     i.addEventListener('click', function(){
         p.style.display = 'flex';
+        navigator.clipboard.writeText(passgene.value);
         setTimeout(() => {
             p.style.display = 'none';
-            navigator.clipboard.writeText(passgene.value);
             form.reset();
         }, 1500);
     })
-    
 })
