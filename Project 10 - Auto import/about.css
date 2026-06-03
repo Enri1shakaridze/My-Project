@@ -155,7 +155,8 @@ nav a:hover{
 }
 
 .main2{
-    margin-top: 30px;
+    margin-top: 98px;
+    margin-bottom: 108px;
     display: flex;
     justify-content: center;
     gap: 40px;
@@ -190,258 +191,6 @@ nav a:hover{
 }
 .main2-cont2 p{
     animation: p2cont1animation 1s;
-}
-.main3{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-}
-.main3-cont2-car{
-    width: 90%;
-    height: 600px;
-}
-.pricess{
-    animation: prices 1s;
-    margin-top: 140px;
-    color: var(--bgcolorh);
-    text-align: center;
-    font-size: 25px;
-}
-.main-3-cont3-next button{
-    width: 50px;
-    height: 50px;
-    border: none;
-    border-radius: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.main3-cont1-prew button{
-    width: 50px;
-    height: 50px;
-    border: none;
-    border-radius: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
-}
-.main3-cont2-car{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 90px;
-    min-height: 790px;
-    height: auto;
-}
-
-.main3-cont2-car1-div3rd{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 510;
-    gap: 20px;
-}
-#btncar{
-    width: 390px;
-    margin-top: 30px;
-    height: 50px;
-    border-radius: 14px;
-    border: none;
-    background-color: var(--bgcolorh);
-    color: var(--bgcolor);
-    transition: 1s;
-    letter-spacing: 1.5px;
-    font-weight: 510;
-    font-size: 17px;
-    cursor: pointer;
-}
-#btncar:hover{
-    background-color: var(--pcolor);
-}
-.main3-cont2-car1-div1{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.main3-cont2-car1-div2{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.main3-cont2-car1-div3{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.main3-cont2-car1{
-    /* margin-bottom: 50px; */
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    animation: car1 1s;
-}
-
-
-.main3-cont2-car1-6p{
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-    width: 370px;
-
-}
-
-
-.main3-cont2-car1-1, .main3-cont2-car1-2, .main3-cont2-car1-3, .main3-cont2-car1-4, .main3-cont2-car1-5, .main3-cont2-car1-6{
-    display: flex;
-    justify-content: space-between;
-    font-weight: 510;
-    color: var(--pcolor);
-}
-.main3-cont2-car1-rastamoshka{
-    display: flex;
-    margin-top: 30px;
-    justify-content: space-between;
-    width: 370px;
-    font-weight: 510;
-    
-}
-.main3-cont2-car1-rastamoshka2{
-    width: 90px;
-    height: 60px;
-    background-color: var(--bgcolorh);
-    color: var(--bgcolor);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 14px;
-    cursor: pointer;
-}
-
-.main3-cont2-car1-rastamoshka p{
-    font-size: 23px;
-}
-.main3-cont2-car1-rastamoshka2 p{
-    font-size: 19px;
-}
-.main3-cont1-contact-div1 {
-    padding-left: 20px;
-
-    height: 55px;
-    display: flex;
-    
-    animation: div1h2 1s;
-}
-.main3-cont1-contact-div1 h1{
-    font-size: 45px;
-    border-left: 1px solid var(--bgcolorh);
-    padding-left: 15px;
-    margin-left: -15px;
-}
-.main4-cont1-contact-div2{
-    width: 700px;
-    min-height: 500px;
-    background-color: var(--bgcolorh);
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-    transition: 0.3s;
-    animation: cdiv2 1s;
-}
-.main3-cont1-contact-div2-div1{
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    justify-content: center;
-    align-items: center;
-    animation: div2div1 1s;
-}
-
-form{
-    display: flex;
-    flex-direction: column;
-    width: 400px;
-    gap: 20px;
-    justify-content: center;
-    /* align-items: center; */
-}
-.main3-cont1-contact-div2-div1 h2{
-    color: var(--bgcolor);
-}
-form input:focus, form textarea:focus{
-    outline: 1px solid var(--alinkhover);
-    border: none;
-}
-form input{
-    background: #00000000;
-    height: 45px;
-    color: white;
-    width: 400px;
-    border-radius: 9px;
-    padding-left: 10px;
-    outline: 1px solid var(--pcolor);
-    border: none;
-    letter-spacing: 1.3px;
-}
-form textarea{
-    background: #00000000;
-
-    min-height: 70px;
-    max-width: 400px;
-    min-width: 400px;
-    max-height: 85px;
-
-    border-radius: 9px;
-    padding-left: 10px;
-    outline: 1px solid var(--pcolor);
-    border: none;
-    letter-spacing: 1.3px;
-    color: var(--bgcolor);
-    font-weight: 100;
-    padding-left: 15px;
-    padding-top: 9px;
-    font-size: 17px;
-}
-form button{
-    height: 45px;
-    width: 400px;
-    border-radius: 9px;
-    padding-left: 10px;
-    border: none;
-    letter-spacing: 1.3px;
-    margin-bottom: 20px;
-    background-color: var(--alinkhover);
-    color: var(--bgcolor);
-    transition: 0.3s;
-    animation: buttondiv2 1s;
-}
-form button:hover{
-    background-color: var(--pcolor);
-}
-.main4{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 150px;
-    gap: 30px;
-    flex-wrap: wrap;
-    margin-bottom: 100px;
-}
-.main4-cont1{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 50px;
-    justify-content: center;
-    /* align-items: center; */
 }
 
 form label{
@@ -634,248 +383,13 @@ ol li a:hover{
 .photo-main3-cont22 img{
     scale: 0.6;
 }
-/* transport */
-
-.main-transport{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 40px;
-    margin-bottom: 90px;
-}
-.main-transport-1{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    animation: transport1 1s;
-}
-.main-transport-1 h1{
-    font-size: 40px;
-    margin-bottom: 10px;
-}
-
-.main-transport-1 p{
-    font-size: 19px;
-    color: var(--pcolor);
-}
-
-.main-transport-2-div1{
-    width: 500px;
-    height: 400px;
-    background-color: var(--textcolor);
-    border-radius: 24px;
-    margin-top: 20px;
-    animation: transport2 1s;
-}
-.main-transport-2-div1{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.main-transport-2-div1-div2 input{
-    width: 300px;
-    height: 50px;
-    border-radius: 14px;
-    padding-left: 10px;
-    border: none;
-    outline: 0.8px solid var(--pcolor);
-    background-color: var(--nobgcolor);
-    color: white;
-    display: block;
-    margin-top: 5px;
-}
-
-.main-transport-2-div1-div2 input:focus{
-    outline: 0.8px solid var(--alinkhover);
-}
 
 
 
-.main-transport-2-div1-div2 label{
-    color: var(--pcolor);
-    font-size: 15px;
-    padding-left: 5px;
-
-}
-#button1, #button2, #button{
-    width: 300px;
-    height: 50px;
-    border: none;
-    border-radius: 16px;
-    margin-top: 20px;
-    letter-spacing: 1.3px;
-}
-#button{
-    color: var(--bgcolor);
-    transition: 0.3s;
-    background-color: var(--alinkhover);
-}
-#button:hover{
-    background-color: var(--pcolor);
-}
-#button1{
-    background-color: var(--pcolor);
-    color: var(--bgcolor);
-    transition: 0.3s;
-}
-
-#button2{
-    background-color: var(--pcolor);
-    color: var(--bgcolor);
-    transition: 0.3s;
-}
-
-#button1:hover{
-    background-color: var(--alinkhover);
-}
-#button2:hover{
-    background-color: var(--alinkhover);
-}
-
-.danamat-format{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 50px;
-}
-
-.danamat-div1{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 40px;
-}
-
-.danamat-div1 h1{
-    text-align: center;
-    font-size: 45px;
-    margin-bottom: 10px;
-}
-.danamat-div1 p{
-    font-size: 19px;
-    color: var(--pcolor);
-    text-align: center;
-}
-
-.danamat-div2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /* align-items: center; */
-    gap: 5;
-    width: 350px;
-    border-bottom: 1px solid var(--pcolor);
-    margin-top: 50px;
-    margin-bottom: 40px;
-}
-.danamat-div2 input{
-    height: 40px;
-    border: 0.8px solid var(--pcolor);
-    border-radius: 14px;
-    padding-left: 10px;
-    letter-spacing: 1.4px;
-    margin-bottom: 20px;
-}
 
 
-.danamat-div2 button{
-    height: 45px;
-    letter-spacing: 1.4px;
-    color: var(--bgcolor);
-    background-color: var(--alinkhover);
-    border: none;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    transition: 0.3s;
-}
-.danamat-div2 button:hover{
-    background-color: var(--textcolor);
-}
-.danamat-div2 label{
-    font-size: 14px;
-    margin-bottom: 2px;
-}
-
-.danamat-div2 input:focus{
-    outline: 0.8px solid var(--textcolor);
-}
-.danamat-div3{
-    display: flex;
-    justify-content: center;
-    /* align-items: center; */
-    flex-direction: column;
-
-}
-
-.danamat-div3 h2{
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-.partnior1 h1{
-    font-size: 50px;
-    text-align: center;
-
-}
-
-.partnior1 p{
-    font-size: 20px;
-    color: var(--pcolor);
-    text-align: center;
-
-}
-.partnior2-cont1-cont2{
-    max-width: 600px;
-    display: flex;
-    justify-content: center;
-    /* align-items: center; */
-    flex-direction: column;
-    
-}
 
 
-.partnior-all{
-    margin-top: 50px;
-    margin-bottom: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.partnior2-cont1{
-    display: flex;
-    gap: 50px;
-    margin-top: 50px;
-    
-}
-
-.partnior2-cont12-cont1 img{
-    width: 600px;
-    height: 300px;
-}
-
-.partnior2-cont1-cont2 p{
-    color: var(--pcolor);
-    font-size: 15.9px;
-}
-
-.partnior2 h1{
-    margin-bottom: 20px;
-}
-
-
-.partnior2{
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-}
 
 
 
@@ -904,7 +418,7 @@ ol li a:hover{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 250px;
+        margin-top: 100px;
     }
     .main2-cont1{
         margin-left: 0px;
@@ -932,67 +446,10 @@ ol li a:hover{
         width: 550px;
     }
 }
-@media (max-width: 1280px){
-    .partnior2-cont1{
-        flex-direction: column;
-    }
-}
-@media (max-width: 570px){
-    .partnior1 h1, .partnior1 p{
-        scale: 0.7;
-    }
-    .partnior2{
-        scale: 0.7;
-        margin-top: -350px;
-        margin-bottom: -340px;
-    }
-}
-@media (max-width: 440px){
+/* @media (max-width: 470px){
+    
+} */
 
-    .partnior2{
-        scale: 0.9;
-        margin-top: -130px;
-        margin-bottom: -80px;
-        text-align: center;
-        max-width: 380px;
-    }
-    .partnior2 img{
-        width: 370px;
-    }
-}
-@media (max-width: 500px){
-    .danamat-div3 {
-        align-items: center;
-    }
-    .danamat-div1 h1{
-        font-size: 36px;
-    }
-    .danamat-div2{
-        width: 300px;
-    }
-}
-@media (max-width: 670px){
-    .main-transport h1{
-        font-size: 30px;
-        text-align: center;
-    }
-    .main-transport p{
-        font-size: 15px;
-        text-align: center;
-        margin-left: 5px;
-        margin-right: 5px;
-    }
-}
-@media (max-width: 520px){
-    .main-transport-2-div1{
-        width: 380px;
-    }
-}
-@media (max-width: 400px){
-    .main-transport-2-div1{
-        scale: 0.9;
-    }
-}
 @media (max-width: 533px){
     #main11{
         margin-left: 0px;
@@ -1085,7 +542,7 @@ ol li a:hover{
         
     }
     .main2{
-        margin-top: 150px;
+        margin-top: 10px;
     }
 }
 @media (max-width: 1150px){
@@ -1259,8 +716,6 @@ ol li a:hover{
 /* keyframes(animation) */
 @keyframes headdder {
     0%{
-        opacity: 0;
-
         height: 100px;
     }
     100%{
@@ -1269,8 +724,6 @@ ol li a:hover{
 }
 @keyframes headdder2a {
     0%{
-        opacity: 0;
-
         color: var(--nobgcolor);
     }
     100%{
@@ -1279,8 +732,6 @@ ol li a:hover{
 }
 @keyframes headdder2 {
     0%{
-        opacity: 0;
-
         transform: translateY(-100px);
     }
     100%{
@@ -1289,8 +740,6 @@ ol li a:hover{
 }
 @keyframes headani {
     0%{
-        opacity: 0;
-
         transform: translateY(-100px);
     }
 
@@ -1301,8 +750,6 @@ ol li a:hover{
 
 @keyframes imganimation {
     0%{
-        opacity: 0;
-
         transform: translateX(400px);
     }
     100%{
@@ -1311,8 +758,6 @@ ol li a:hover{
 }
 @keyframes panimation {
     0%{
-        opacity: 0;
-
         color: #0f172a00;
         transform: translateX(-400px);
     }
@@ -1323,8 +768,6 @@ ol li a:hover{
 }
 @keyframes h1animation {
     0%{
-        opacity: 0;
-
         color: #0f172a00;
         transform: translateX(-400px);
     }
@@ -1335,8 +778,6 @@ ol li a:hover{
 }
 @keyframes buttonanimation {
     0%{
-        opacity: 0;
-
         background: #00000000;
         transform: translateX(-400px);
     }
@@ -1347,8 +788,6 @@ ol li a:hover{
 }
 @keyframes imgcont1animation {
     0%{
-        opacity: 0;
-
         transform: translateX(-400px);
     }
     100%{
@@ -1357,8 +796,6 @@ ol li a:hover{
 }
 @keyframes h1cont1animation {
     0%{
-        opacity: 0;
-
         color: #00000000;
         transform: translateX(200px);
     }
@@ -1369,8 +806,6 @@ ol li a:hover{
 }
 @keyframes h11cont1animation {
     0%{
-        opacity: 0;
-
         color: #00000000;
         transform: translateY(-100px);
     }
@@ -1381,8 +816,6 @@ ol li a:hover{
 }
 @keyframes p2cont1animation {
     0%{
-        opacity: 0;
-
         color: #00000000;
         transform: translateX(400px);
     }
@@ -1392,8 +825,6 @@ ol li a:hover{
 }
 @keyframes prices {
     0%{
-        opacity: 0;
-
         color: #00000000;
         transform: translateY(-100px);
     }
@@ -1403,8 +834,6 @@ ol li a:hover{
 }
 @keyframes car1 {
     0%{
-        opacity: 0;
-
         color: #00000000;
         transform: translateX(-400px);
     }
@@ -1414,8 +843,6 @@ ol li a:hover{
 }
 @keyframes div1h2 {
     0%{
-        opacity: 0;
-
         transform: translateX(-400px);
     }
     100%{
@@ -1424,36 +851,21 @@ ol li a:hover{
 }
 @keyframes div2div1 {
     0%{
-        opacity: 0;
         transform: translate(-400px, -300px);
     }
 }
 @keyframes cdiv2 {
     0%{
-        opacity: 0;
         transform: translateX(400px);
     }
 }
 @keyframes buttondiv2 {
     0%{
-        opacity: 0;
         transform: translate(-400px, 300px);
     }
 }
 @keyframes footerr {
     0%{
         transform: translateY(600px);
-    }
-}
-@keyframes transport2 {
-    0%{
-        transform: translateX(400px);
-        opacity: 0;
-    }
-}
-@keyframes transport1 {
-    0%{
-        transform: translateX(-400px);
-        opacity: 0;
     }
 }
